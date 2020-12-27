@@ -1,20 +1,20 @@
 # --- General options --- #
 
 # Name of website
-title: Anudit Verma
+title: Nicky Sonnemans
 
 # Short description of your site
-description: Let me introduce you to my geek side!
+description: Showcase of projects!
 
 # Your name to show in the footer
-author: Anudit Verma
+author: Nicky Sonnemans
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-url: "https://www.anudit.in/"
+url: "https://www.nhcb.github.io"
 
 # baseurl should be an empty string
 baseurl: ""
@@ -28,26 +28,14 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
-  Recommends: "books"
-  Publications:
-    - A framework of smart homes connected devices using Internet of Things: "http://ieeexplore.ieee.org/document/7918794/"
-    - Google Scholar Profile: "https://scholar.google.co.in/citations?user=4p4smu0AAAAJ"
-    - ResearchGate Profile: "https://www.researchgate.net/profile/Anudit_Verma"
-  Projects:
-    - GSoC'15: "https://github.com/anuditverma/org.civicrm.osdi"
-    - Airtel Suvidha (Airtel WHack Hackathon): "https://www.linkedin.com/feed/update/activity:6273369896978087936/"
-    - Contract Reader Tool (EY Hackathon): "https://www.moneycontrol.com/news/technology/ey-hackathon-winners-develop-tax-compliance-solutions-with-automation-2439821.html"
-    - Medical Ambience App: "https://github.com/anuditverma/MAA-Avaya-Hackathon"
-    - TypeRacer: "https://github.com/anuditverma/appbase-typeracer"
-    - video.js Overlay Hyperlink: "https://www.npmjs.com/package/videojs-overlay-hyperlink"
   About Me: "aboutme"
-  Resume | CV: "resume/Anudit_Verma.pdf"
+  Resume | CV: "resume/CV.pdf"
 #  Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/av.jpg"
-round-avatar: true
+#avatar: "/assets/img/av.jpg"
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter. The logo will have a height of 40px
@@ -71,16 +59,16 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-# email: "someone@example.com"
-  facebook: anuditverma
-  github: anuditverma
-  twitter: anuditverma
-# reddit: yourname
-  linkedin: anuditverma
+# email: "nicky.sonnemans@gmail.com"
+  facebook: 
+  github: 
+  twitter: 
+# reddit: 
+  linkedin: 
 # xing: yourname
-# stackoverflow: 4590331/anudit-verma
+# stackoverflow: 
 # snapchat: yourname
-  instagram: anuditverma
+#  instagram: 
   rss: false
 # youtube: user/yourname
 # spotify: yourname
@@ -108,7 +96,7 @@ url-pretty: "anudit.in"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-84991519-1"
+google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
@@ -116,7 +104,7 @@ google_analytics: "UA-84991519-1"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "anuditverma"
+disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
@@ -140,7 +128,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Asia/Kolkata"
+timezone: "Europe/Amsterdam"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
